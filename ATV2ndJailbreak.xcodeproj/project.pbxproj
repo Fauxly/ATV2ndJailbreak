@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		186F19DE304DFAFD00E61999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186F19C4304DFAFB00E61999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186F19CB304DFAFC00E61999;
+			remoteInfo = ATV2ndJailbreak;
+		};
+		186F19E8304DFAFD00E61999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186F19C4304DFAFB00E61999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186F19CB304DFAFC00E61999;
+			remoteInfo = ATV2ndJailbreak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186F19CC304DFAFC00E61999 /* ATV2ndJailbreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATV2ndJailbreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186F19DD304DFAFD00E61999 /* ATV2ndJailbreakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATV2ndJailbreakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186F19E7304DFAFD00E61999 /* ATV2ndJailbreakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATV2ndJailbreakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		186F19CE304DFAFC00E61999 /* ATV2ndJailbreak */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ATV2ndJailbreak;
+			sourceTree = "<group>";
+		};
+		186F19E0304DFAFD00E61999 /* ATV2ndJailbreakTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ATV2ndJailbreakTests;
+			sourceTree = "<group>";
+		};
+		186F19EA304DFAFD00E61999 /* ATV2ndJailbreakUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ATV2ndJailbreakUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186F19C9304DFAFC00E61999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186F19DA304DFAFD00E61999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186F19E4304DFAFD00E61999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186F19C3304DFAFB00E61999 = {
+			isa = PBXGroup;
+			children = (
+				186F19CE304DFAFC00E61999 /* ATV2ndJailbreak */,
+				186F19E0304DFAFD00E61999 /* ATV2ndJailbreakTests */,
+				186F19EA304DFAFD00E61999 /* ATV2ndJailbreakUITests */,
+				186F19CD304DFAFC00E61999 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		186F19CD304DFAFC00E61999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186F19CC304DFAFC00E61999 /* ATV2ndJailbreak.app */,
+				186F19DD304DFAFD00E61999 /* ATV2ndJailbreakTests.xctest */,
+				186F19E7304DFAFD00E61999 /* ATV2ndJailbreakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		186F19CB304DFAFC00E61999 /* ATV2ndJailbreak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186F19F1304DFAFD00E61999 /* Build configuration list for PBXNativeTarget "ATV2ndJailbreak" */;
+			buildPhases = (
+				186F19C8304DFAFC00E61999 /* Sources */,
+				186F19C9304DFAFC00E61999 /* Frameworks */,
+				186F19CA304DFAFC00E61999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				186F19CE304DFAFC00E61999 /* ATV2ndJailbreak */,
+			);
+			name = ATV2ndJailbreak;
+			packageProductDependencies = (
+			);
+			productName = ATV2ndJailbreak;
+			productReference = 186F19CC304DFAFC00E61999 /* ATV2ndJailbreak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		186F19DC304DFAFD00E61999 /* ATV2ndJailbreakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186F19F4304DFAFD00E61999 /* Build configuration list for PBXNativeTarget "ATV2ndJailbreakTests" */;
+			buildPhases = (
+				186F19D9304DFAFD00E61999 /* Sources */,
+				186F19DA304DFAFD00E61999 /* Frameworks */,
+				186F19DB304DFAFD00E61999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186F19DF304DFAFD00E61999 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				186F19E0304DFAFD00E61999 /* ATV2ndJailbreakTests */,
+			);
+			name = ATV2ndJailbreakTests;
+			packageProductDependencies = (
+			);
+			productName = ATV2ndJailbreakTests;
+			productReference = 186F19DD304DFAFD00E61999 /* ATV2ndJailbreakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		186F19E6304DFAFD00E61999 /* ATV2ndJailbreakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186F19F7304DFAFD00E61999 /* Build configuration list for PBXNativeTarget "ATV2ndJailbreakUITests" */;
+			buildPhases = (
+				186F19E3304DFAFD00E61999 /* Sources */,
+				186F19E4304DFAFD00E61999 /* Frameworks */,
+				186F19E5304DFAFD00E61999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186F19E9304DFAFD00E61999 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				186F19EA304DFAFD00E61999 /* ATV2ndJailbreakUITests */,
+			);
+			name = ATV2ndJailbreakUITests;
+			packageProductDependencies = (
+			);
+			productName = ATV2ndJailbreakUITests;
+			productReference = 186F19E7304DFAFD00E61999 /* ATV2ndJailbreakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		186F19C4304DFAFB00E61999 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					186F19CB304DFAFC00E61999 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					186F19DC304DFAFD00E61999 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 186F19CB304DFAFC00E61999;
+					};
+					186F19E6304DFAFD00E61999 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 186F19CB304DFAFC00E61999;
+					};
+				};
+			};
+			buildConfigurationList = 186F19C7304DFAFB00E61999 /* Build configuration list for PBXProject "ATV2ndJailbreak" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 186F19C3304DFAFB00E61999;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 186F19CD304DFAFC00E61999 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186F19CB304DFAFC00E61999 /* ATV2ndJailbreak */,
+				186F19DC304DFAFD00E61999 /* ATV2ndJailbreakTests */,
+				186F19E6304DFAFD00E61999 /* ATV2ndJailbreakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186F19CA304DFAFC00E61999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186F19DB304DFAFD00E61999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186F19E5304DFAFD00E61999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186F19C8304DFAFC00E61999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186F19D9304DFAFD00E61999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186F19E3304DFAFD00E61999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		186F19DF304DFAFD00E61999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186F19CB304DFAFC00E61999 /* ATV2ndJailbreak */;
+			targetProxy = 186F19DE304DFAFD00E61999 /* PBXContainerItemProxy */;
+		};
+		186F19E9304DFAFD00E61999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186F19CB304DFAFC00E61999 /* ATV2ndJailbreak */;
+			targetProxy = 186F19E8304DFAFD00E61999 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		186F19EF304DFAFD00E61999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.8;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		186F19F0304DFAFD00E61999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		186F19F2304DFAFD00E61999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ATV2ndJailbreak/ATV2ndJailbreak.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ATV2ndJailbreak/Preview Content\"";
+				DEVELOPMENT_TEAM = Q5F9LXYCBK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fauxly.ATV2ndJailbreak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		186F19F3304DFAFD00E61999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ATV2ndJailbreak/ATV2ndJailbreak.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ATV2ndJailbreak/Preview Content\"";
+				DEVELOPMENT_TEAM = Q5F9LXYCBK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fauxly.ATV2ndJailbreak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		186F19F5304DFAFD00E61999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5F9LXYCBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.8;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fauxly.ATV2ndJailbreakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATV2ndJailbreak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ATV2ndJailbreak";
+			};
+			name = Debug;
+		};
+		186F19F6304DFAFD00E61999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5F9LXYCBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.8;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fauxly.ATV2ndJailbreakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATV2ndJailbreak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ATV2ndJailbreak";
+			};
+			name = Release;
+		};
+		186F19F8304DFAFD00E61999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5F9LXYCBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fauxly.ATV2ndJailbreakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ATV2ndJailbreak;
+			};
+			name = Debug;
+		};
+		186F19F9304DFAFD00E61999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5F9LXYCBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fauxly.ATV2ndJailbreakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ATV2ndJailbreak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186F19C7304DFAFB00E61999 /* Build configuration list for PBXProject "ATV2ndJailbreak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186F19EF304DFAFD00E61999 /* Debug */,
+				186F19F0304DFAFD00E61999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186F19F1304DFAFD00E61999 /* Build configuration list for PBXNativeTarget "ATV2ndJailbreak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186F19F2304DFAFD00E61999 /* Debug */,
+				186F19F3304DFAFD00E61999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186F19F4304DFAFD00E61999 /* Build configuration list for PBXNativeTarget "ATV2ndJailbreakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186F19F5304DFAFD00E61999 /* Debug */,
+				186F19F6304DFAFD00E61999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186F19F7304DFAFD00E61999 /* Build configuration list for PBXNativeTarget "ATV2ndJailbreakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186F19F8304DFAFD00E61999 /* Debug */,
+				186F19F9304DFAFD00E61999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 186F19C4304DFAFB00E61999 /* Project object */;
+}
