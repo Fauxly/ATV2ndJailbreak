@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		186F1A09304DFB3E00E61999 /* ATV2ndJailbreakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F19FB304DFB3E00E61999 /* ATV2ndJailbreakApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		186F19DE304DFAFD00E61999 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,7 +31,28 @@
 		186F19CC304DFAFC00E61999 /* ATV2ndJailbreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATV2ndJailbreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		186F19DD304DFAFD00E61999 /* ATV2ndJailbreakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATV2ndJailbreakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		186F19E7304DFAFD00E61999 /* ATV2ndJailbreakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATV2ndJailbreakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186F19FB304DFB3E00E61999 /* ATV2ndJailbreakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATV2ndJailbreakApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		186F1A4D304E79A500E61999 /* Exceptions for "Resources" folder in "ATV2ndJailbreak" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				pyra.deb,
+			);
+			target = 186F19CB304DFAFC00E61999 /* ATV2ndJailbreak */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		186F1A4F304E79BA00E61999 /* Exceptions for "Resources" folder in "Copy Bundle Resources" phase from "ATV2ndJailbreak" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 186F19CA304DFAFC00E61999 /* Resources */;
+			membershipExceptions = (
+				pyra.deb,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		186F19CE304DFAFC00E61999 /* ATV2ndJailbreak */ = {
@@ -43,6 +68,35 @@
 		186F19EA304DFAFD00E61999 /* ATV2ndJailbreakUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ATV2ndJailbreakUITests;
+			sourceTree = "<group>";
+		};
+		186F1A10304DFCCA00E61999 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		186F1A19304DFFCE00E61999 /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		186F1A1C304E001200E61999 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		186F1A1F304E005B00E61999 /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		186F1A3C304E715A00E61999 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				186F1A4D304E79A500E61999 /* Exceptions for "Resources" folder in "ATV2ndJailbreak" target */,
+				186F1A4F304E79BA00E61999 /* Exceptions for "Resources" folder in "Copy Bundle Resources" phase from "ATV2ndJailbreak" target */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +129,12 @@
 		186F19C3304DFAFB00E61999 = {
 			isa = PBXGroup;
 			children = (
+				186F1A3C304E715A00E61999 /* Resources */,
+				186F1A1F304E005B00E61999 /* ViewModels */,
+				186F1A1C304E001200E61999 /* Models */,
+				186F1A19304DFFCE00E61999 /* Services */,
+				186F1A10304DFCCA00E61999 /* Views */,
+				186F19FB304DFB3E00E61999 /* ATV2ndJailbreakApp.swift */,
 				186F19CE304DFAFC00E61999 /* ATV2ndJailbreak */,
 				186F19E0304DFAFD00E61999 /* ATV2ndJailbreakTests */,
 				186F19EA304DFAFD00E61999 /* ATV2ndJailbreakUITests */,
@@ -109,6 +169,11 @@
 			);
 			fileSystemSynchronizedGroups = (
 				186F19CE304DFAFC00E61999 /* ATV2ndJailbreak */,
+				186F1A10304DFCCA00E61999 /* Views */,
+				186F1A19304DFFCE00E61999 /* Services */,
+				186F1A1C304E001200E61999 /* Models */,
+				186F1A1F304E005B00E61999 /* ViewModels */,
+				186F1A3C304E715A00E61999 /* Resources */,
 			);
 			name = ATV2ndJailbreak;
 			packageProductDependencies = (
@@ -236,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186F1A09304DFB3E00E61999 /* ATV2ndJailbreakApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +472,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Resources",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fauxly.ATV2ndJailbreak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +502,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Resources",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fauxly.ATV2ndJailbreak;
